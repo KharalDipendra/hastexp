@@ -1,0 +1,32 @@
+{
+  "name": "hastexp",
+  "version": "1.1.0",
+  "description": "A simple hastebin package that lets you upload text to hastebin and make a link directly from writing code.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "hastebin.js",
+    "hastebin",
+    "hastebin package",
+    "discord.js",
+    "eval",
+    "discord"
+  ],
+  "author": "Scara",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/scarasect/hastexp"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "hastebin.js": "^1.3.2",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
+}
